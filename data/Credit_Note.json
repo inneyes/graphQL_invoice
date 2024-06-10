@@ -1,0 +1,179 @@
+{
+    "GetInvoice": {
+        "TypeCode": 81,
+        "TypeNameTh": "ใบลดหนี้",
+        "TypeNameEn": "Credit Note",
+        "No": "CN000001",
+        "Date": "13/05/2024",
+        "Seller": {
+            "ID": {},
+            "Name": "getInvoice company limited Krungkasem Branch",
+            "TaxID": 1783911564599,
+            "TaxIDType": {},
+            "Branch": 0,
+            "BuildingNo": 112,
+            "BuildingName": {},
+            "Street": "Adam 77",
+            "Line1": {},
+            "Line2": {},
+            "Line3": {},
+            "Line4": {},
+            "District": "Bang Phai Subdistrict",
+            "City": "Bang Khae District",
+            "Province": "Bangkok",
+            "PostalCode": 10160,
+            "CountryCode": "TH",
+            "CountryName": "Thailand",
+            "Telephone": 933651661,
+            "Fax": {},
+            "Contact": "Adam",
+            "Department": {},
+            "Email": {}
+        },
+        "Buyer": {
+            "ID": 1,
+            "Name": "WRC company",
+            "TaxID": {},
+            "TaxIDType": {},
+            "Branch": {},
+            "BuildingNo": 85,
+            "BuildingName": {},
+            "Street": "Connell 57",
+            "Line1": {},
+            "Line2": {},
+            "Line3": {},
+            "Line4": {},
+            "District": "Khlong Toei Subdistrict",
+            "City": "Khlong Toei District",
+            "Province": "Bangkok",
+            "PostalCode": 10110,
+            "CountryCode": "TH",
+            "CountryName": "Thailand",
+            "Telephone": {},
+            "Fax": {},
+            "Contact": {},
+            "Department": {},
+            "Email": {}
+        },
+        "DueDate": {},
+        "PurposeCode": "CDNG01",
+        "Purpose": "Reduce the price of products sold (The product violates the agreed upon specifications)",
+        "References": {
+            "Reference": {
+                "TypeCode": "T03",
+                "No": "RCT000001",
+                "Date": "13/05/2024"
+            }
+        },
+        "OriginalAmount": 1261.47,
+        "CorrectAmount": 1229.37,
+        "DifferenceAmount": 32.1,
+        "CurrencyCode": "USD",
+        "Currency": "US Dollar",
+        "LineItems": {
+            "Item": [{
+                    "No": 1,
+                    "Id": 1,
+                    "Name": "Acme Smartwatch",
+                    "Description": "Discount 10$",
+                    "Quantity": 1,
+                    "Unit": "Unit",
+                    "OldPrice": {},
+                    "NewPrice": {},
+                    "Price": 189.99,
+                    "Allowances": {},
+                    "Amount": 189.99,
+                    "Tax": {
+                        "Code": "VAT",
+                        "Rate": 7,
+                        "Amount": 13.3
+                    },
+                    "TaxAmount": 13.3,
+                    "Total": 203.29
+                },
+                {
+                    "No": 2,
+                    "Id": 2,
+                    "Name": "Megabyte Laptop",
+                    "Description": "Discount 10$",
+                    "Quantity": 1,
+                    "Unit": "Unit",
+                    "OldPrice": {},
+                    "NewPrice": {},
+                    "Price": 889,
+                    "Allowances": {},
+                    "Amount": 889,
+                    "Tax": {
+                        "Code": "VAT",
+                        "Rate": 7,
+                        "Amount": 62.23
+                    },
+                    "TaxAmount": 62.23,
+                    "Total": 951.23
+                },
+                {
+                    "No": 3,
+                    "Id": 3,
+                    "Name": "Volt Wireless Earbuds",
+                    "Description": "Discount 10$",
+                    "Quantity": 1,
+                    "Unit": "Unit",
+                    "OldPrice": {},
+                    "NewPrice": {},
+                    "Price": 69.95,
+                    "Allowances": {},
+                    "Amount": 69.95,
+                    "Tax": {
+                        "Code": "VAT",
+                        "Rate": 7,
+                        "Amount": 4.9
+                    },
+                    "TaxAmount": 4.9,
+                    "Total": 74.85
+                }
+            ]
+        },
+        "TotalQuantity": 3,
+        "Quantity": 3,
+        "Amount": 1148.94,
+        "ChargeTotal": 0,
+        "AllowanceTotal": 0,
+        "TaxBasisAmount": 1148.94,
+        "NonVat": 0,
+        "TaxAmount": 80.43,
+        "Taxes": {
+            "Tax": {
+                "Code": "VAT",
+                "Rate": 7,
+                "Amount": 80.43
+            }
+        },
+        "Total": 1229.37,
+        "Summary": {
+            "Data": [{
+                    "Label": "sum",
+                    "Amount": 1148.94
+                },
+                {
+                    "Label": "VAT 7%",
+                    "Amount": 80.43
+                },
+                {
+                    "Label": "Total sum",
+                    "Amount": 1229.37
+                }
+            ]
+        },
+        "TotalEn": "One Thousand Two Hundred Twenty Nine Point Three Seven",
+        "TotalTh": "หนึ่งพันสองร้อยยี่สิบเก้าบาท สามสิบเจ็ดสตางค์",
+        "Settings": {
+            "TaxInclusive": false,
+            "InlineTax": true,
+            "InlineAllowance": true,
+            "CumulativeAllowance": true
+        },
+        "Manager": {},
+        "Position": {}
+    },
+    "$schema": "http://json-schema.org/draft/2019-09/schema"
+}
